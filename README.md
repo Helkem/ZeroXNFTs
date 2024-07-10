@@ -1,1 +1,2 @@
 A Web3 NFT Search Application built with React with Typescript Vite and Node.js. Requires a MORALIS Api key for search funcitonality. 
+Input any NFT contract address or click the scrolling collections to search for and display any NFT collection.
