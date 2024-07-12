@@ -7,7 +7,7 @@ export default function Footer() {
         target='_blank'
         rel='noopener noreferrer'
       >
-        https://twitter.com/Helkem0
+        https://twitter.com/Helkem
       </a>
     </footer>
   );
