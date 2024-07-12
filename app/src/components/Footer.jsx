@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className='footer'>
       <a
         className='footerLink'
-        href='https://twitter.com/Helkem0'
+        href='https://twitter.com/Helkem'
         target='_blank'
         rel='noopener noreferrer'
       >
