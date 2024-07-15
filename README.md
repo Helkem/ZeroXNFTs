@@ -21,7 +21,18 @@ Tested with v20.12.2
 * Run the API server
 * Run the frontend development server
 * Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+### Running the API
   
+Navigate to API directory  
+```
+cd api
+```
+Start the node server
+```
+node index.js
+```
+### Running the Frontend 
 
 Navigate to frontend app directory  
 ```
@@ -35,14 +46,6 @@ Start the development server
 ```
 npm run dev
 ```
-### Running the API
 
-Navigate to API directory  
-```
-cd api
-```
-Start the node server
-```
-node index.js
-```
+
 
