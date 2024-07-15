@@ -15,7 +15,7 @@ Tested with v20.12.2
 
 ## Installing
 * Before running locally, make sure to navigate to the api folder duplicate `.env_sample` to a new file called `.env`, and update its values to a valid MORALIS API key.
-* Get your free key here https://docs.moralis.io/web3-data-api/evm/reference/get-contract-nfts?address=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB&chain=eth&format=decimal
+* Get your free API key here https://docs.moralis.io/web3-data-api/evm/reference/get-contract-nfts?address=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB&chain=eth&format=decimal
   
 ## Executing program
 * Update `.env` file with a valid api key
