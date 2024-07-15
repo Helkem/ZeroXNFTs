@@ -1,13 +1,11 @@
 # ZeroXNFTs
 
-Web3 Application to Search for any NFT Collection by contract address. 
+Web3 application to search for any NFT Collection by contract address. 
 
 ## Description
 
 Built with React with Typescript Vite and Node.js. Requires a MORALIS Api key for search funcitonality. 
 Select a chain, input any NFT contract address or click the scrolling collections to search for and display an NFT collection. Eligible addresses avaliable on Ethereum mainet, Binance SmartChain, Polygon, Avalanche. 
-
-## Getting Started
 
 ### Dependencies
 
