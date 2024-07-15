@@ -1,20 +1,17 @@
+# ZeroXNFTs
 
-
-# ZeroXNFTS
-
-A Web3 NFT Search Application built with React with Typescript Vite and Node.js. Requires a MORALIS Api key for search funcitonality. 
-Select a chain, input any NFT contract address or click the scrolling collections to search for and display an NFT collection. Eligible addresses avaliable on Ethereum mainet, Binance SmartChain, Polygon, Avalanche. 
+Web3 Application to Search for any NFT Collection by contract address. 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Built with React with Typescript Vite and Node.js. Requires a MORALIS Api key for search funcitonality. 
+Select a chain, input any NFT contract address or click the scrolling collections to search for and display an NFT collection. Eligible addresses avaliable on Ethereum mainet, Binance SmartChain, Polygon, Avalanche. 
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Requires Node.js
 
 ### Installing
 
@@ -25,9 +22,31 @@ An in-depth paragraph about your project and overview of use.
 
 * How to run the program
 * Step-by-step bullets
+
+Navigate to frontend app directory  
 ```
-code blocks for commands
+cd app
 ```
+Install dependencies 
+```
+npm install
+```
+Start the development server
+```
+npm run dev
+```
+### Running the API
+
+Navigate to API directory  
+```
+cd api
+```
+Start the node server
+```
+node index.js
+```
+
+
 
 ## Help
 
