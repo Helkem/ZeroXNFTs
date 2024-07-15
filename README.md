@@ -13,7 +13,7 @@ Select a chain, input any NFT contract address or click the scrolling collection
 ### Node Version
 Tested with v20.12.2
 
-### Installing
+## Installing
 * Before running locally, make sure to navigate to the api folder duplicate `.env_sample` to a new file called `.env`, and update its values to a valid MORALIS API key.
 * Get your free key here https://docs.moralis.io/web3-data-api/evm/reference/get-contract-nfts?address=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB&chain=eth&format=decimal
   
