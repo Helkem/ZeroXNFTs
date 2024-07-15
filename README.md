@@ -13,6 +13,9 @@ Select a chain, input any NFT contract address or click the scrolling collection
 
 * Requires Node.js
 
+### Node Version
+*Tested with v20.12.2
+
 ### Installing
 
 * How/where to download your program
