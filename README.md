@@ -14,7 +14,7 @@ Select a chain, input any NFT contract address or click the scrolling collection
 Tested with v20.12.2
 
 ### Installing
-* Before running locally, make sure to duplicate `.env.template` to a new file called `.env`, and update its values to a valid MORALIS API key.
+* Before running locally, make sure to navigate to the api folder duplicate `.env_sample` to a new file called `.env`, and update its values to a valid MORALIS API key.
   
 ### Executing program
 * Update `.env` file with a valid api key
