@@ -30,6 +30,10 @@ Navigate to API directory
 ```
 cd api
 ```
+Install dependencies 
+```
+npm install
+```
 Start the node server
 ```
 node index.js
