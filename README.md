@@ -8,21 +8,20 @@ Built with React with Typescript Vite and Node.js. Requires a MORALIS Api key fo
 Select a chain, input any NFT contract address or click the scrolling collections to search for and display an NFT collection. Eligible addresses avaliable on Ethereum mainet, Binance SmartChain, Polygon, Avalanche. 
 
 ### Dependencies
-
 * Requires Node.js
 
 ### Node Version
 Tested with v20.12.2
 
 ### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
+* Before running locally, make sure to duplicate `.env.template` to a new file called `.env`, and update its values to a valid MORALIS API key.
+  
 ### Executing program
-
-* How to run the program
-* Step-by-step bullets
+* Update `.env` file with a valid api key
+* Run the API server
+* Run the frontend development server
+* Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+  
 
 Navigate to frontend app directory  
 ```
