@@ -9,6 +9,7 @@ Select a chain, input any NFT contract address or click the scrolling collection
 
 ### Dependencies
 * Requires Node.js
+* Requires Express.js
 * Requires NPM package manager 
 
 ### Node Version
