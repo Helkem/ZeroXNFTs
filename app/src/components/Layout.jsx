@@ -4,12 +4,22 @@ import Footer from "./Footer";
 import Header from "./Header";
 import axios from "axios";
 import logo from "../assets/zerologo.svg";
+import { notification } from "antd";
+
 const Layout = () => {
   const [address, setAddress] = useState("");
   const [chain, setChain] = useState("0x1");
   const [cursor, setCursor] = useState(null);
   const [NFTs, setNFTs] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [api, contextHolder] = notification.useNotification();
+
+  const openNotificationWithIcon = (type, errorMessage, errorTitle) => {
+    api[type]({
+      message: errorTitle,
+      description: errorMessage,
+    });
+  };
 
   function getImgUrl(metadata) {
     if (!metadata) return logo;
@@ -47,6 +57,7 @@ const Layout = () => {
       console.log(res);
     } catch (error) {
       console.error("Error fetching NFTs:", error);
+      openNotificationWithIcon("error", error.message, error.code);
     } finally {
       setIsLoading(false);
     }
@@ -65,6 +76,7 @@ const Layout = () => {
 
   return (
     <>
+      {contextHolder}
       <div className='App'>
         <Header
           address={address}
