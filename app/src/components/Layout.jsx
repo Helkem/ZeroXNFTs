@@ -53,7 +53,7 @@ const Layout = () => {
         openNotificationWithIcon(
           "warning",
           "No NFTs found for this address on the selected chain. Please check the address and chain.",
-          "Unable to Fetch"
+          "No NFTs found"
         );
       }
 
