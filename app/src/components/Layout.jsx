@@ -49,6 +49,14 @@ const Layout = () => {
         });
       }
 
+      if (res.data.result.result.length === 0) {
+        openNotificationWithIcon(
+          "warning",
+          "No NFTs found for this address on the selected chain. Please check the address and chain.",
+          "Unable to Fetch"
+        );
+      }
+
       console.log(res);
 
       let n = NFTs;
@@ -57,7 +65,7 @@ const Layout = () => {
       console.log(res);
     } catch (error) {
       console.error("Error fetching NFTs:", error);
-      openNotificationWithIcon("error", error.message, error.code);
+      openNotificationWithIcon("error", error.message, "Error Fetching NFTs");
     } finally {
       setIsLoading(false);
     }
