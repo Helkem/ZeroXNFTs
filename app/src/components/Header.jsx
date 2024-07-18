@@ -1,26 +1,32 @@
 /* eslint-disable react/prop-types */
 import { Input, Select } from "antd";
 import Logo from "../assets/zerologo.svg";
+
 const { Search } = Input;
 
 function Header({ address, onAddressChange, fetchNFTs, onChainChange }) {
-  function handleSearch() {
-    fetchNFTs();
+  function onSearch(value) {
+    if (value !== "") {
+      fetchNFTs();
+    }
+  }
+
+  function handleChange(e) {
+    onAddressChange(e);
   }
 
   return (
     <header className='header'>
       <img src={Logo} className='logo' alt='logo' />
-
       <div className='headerSearch'>
         <Search
           placeholder='Input contract address'
-          onSearch={handleSearch}
+          onSearch={onSearch}
           allowClear={true}
           enterButton
           size='large'
           value={address}
-          onChange={(e) => onAddressChange(e)}
+          onChange={handleChange}
         />
       </div>
       <div className='rightH'>
