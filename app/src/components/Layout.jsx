@@ -91,6 +91,7 @@ const Layout = () => {
           onAddressChange={addressChange}
           fetchNFTs={fetchNFTs}
           onChainChange={chainChange}
+          isLoading={isLoading}
         />
         <div className='mainWindow'>
           <Content

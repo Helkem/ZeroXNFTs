@@ -4,7 +4,13 @@ import Logo from "../assets/zerologo.svg";
 
 const { Search } = Input;
 
-function Header({ address, onAddressChange, fetchNFTs, onChainChange }) {
+function Header({
+  address,
+  onAddressChange,
+  fetchNFTs,
+  onChainChange,
+  isLoading,
+}) {
   function onSearch(value) {
     if (value !== "") {
       fetchNFTs();
@@ -23,10 +29,11 @@ function Header({ address, onAddressChange, fetchNFTs, onChainChange }) {
           placeholder='Input contract address'
           onSearch={onSearch}
           allowClear={true}
-          enterButton
+          enterButton={true}
           size='large'
           value={address}
           onChange={handleChange}
+          loading={isLoading}
         />
       </div>
       <div className='rightH'>

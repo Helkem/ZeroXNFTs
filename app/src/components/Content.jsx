@@ -54,9 +54,6 @@ function Content({
         })}
       </div>
       <div className='spinner'>
-        {isLoading && (!NFTs || NFTs.length === 0) && (
-          <Spin fullscreen={true} size='large' />
-        )}
         {NFTs && NFTs.length > 0 && isLoading && <Spin size='large' />}
       </div>
       {cursor && (
