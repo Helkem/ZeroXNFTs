@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 const imagesList = [
   {
-    image: "./images/clone8.avif",
+    image: "./images/clone9.avif",
     imgContractAddress: "0x49cF6f5d44E70224e2E23fDcdd2C053F30aDA28B",
   },
   {
@@ -17,36 +17,33 @@ const imagesList = [
     imgContractAddress: "0xED5AF388653567Af2F388E6224dC7C4b3241C544",
   },
   {
-    image: "./images/armada2.svg",
-    imgContractAddress: "0xe50765DeB1429475b28F871571B9417E9FD0E542",
+    image: "./images/cryptopunk2.avif",
+    imgContractAddress: "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
   },
+
   {
-    image: "./images/opepen.avif",
-    imgContractAddress: "0x6339e5E072086621540D0362C4e3Cea0d643E114",
+    image: "./images/azuki2.avif",
+    imgContractAddress: "0xED5AF388653567Af2F388E6224dC7C4b3241C544",
   },
   {
     image: "./images/rem3.avif",
     imgContractAddress: "0xD3D9ddd0CF0A5F0BFB8f7fcEAe075DF687eAEBaB",
   },
   {
-    image: "./images/azuki2.avif",
-    imgContractAddress: "0xED5AF388653567Af2F388E6224dC7C4b3241C544",
-  },
-  {
     image: "./images/armada.svg",
     imgContractAddress: "0xe50765DeB1429475b28F871571B9417E9FD0E542",
   },
   {
+    image: "./images/clone10.avif",
+    imgContractAddress: "0x49cF6f5d44E70224e2E23fDcdd2C053F30aDA28B",
+  },
+  {
+    image: "./images/opepen.avif",
+    imgContractAddress: "0x6339e5E072086621540D0362C4e3Cea0d643E114",
+  },
+  {
     image: "./images/remilio.avif",
     imgContractAddress: "0xD3D9ddd0CF0A5F0BFB8f7fcEAe075DF687eAEBaB",
-  },
-  {
-    image: "./images/pudgy.avif",
-    imgContractAddress: "0xBd3531dA5CF5857e7CfAA92426877b022e612cf8",
-  },
-  {
-    image: "./images/cryptopunk2.avif",
-    imgContractAddress: "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
   },
 ];
 
