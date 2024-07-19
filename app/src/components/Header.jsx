@@ -29,7 +29,7 @@ function Header({
           placeholder='Input contract address'
           onSearch={onSearch}
           allowClear={true}
-          enterButton={true}
+          enterButton
           size='large'
           value={address}
           onChange={handleChange}
