@@ -30,7 +30,7 @@ https://www.loom.com/share/f435e2f3dfeb4fae89eb222280f99716?sid=ba2c3b0f-bdb7-47
 * Run the frontend development server
 * Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-## Running the API
+## Running the Backend
   
 Navigate to API directory  
 ```
