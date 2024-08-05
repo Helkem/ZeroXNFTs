@@ -15,6 +15,9 @@ Select a chain, input any NFT contract address or click the scrolling collection
 ### Node Version
 Tested with v20.12.2
 
+## Live Website
+https://zeroxnft.netlify.app/
+
 ## Live Demo
 https://www.loom.com/share/f435e2f3dfeb4fae89eb222280f99716?sid=ba2c3b0f-bdb7-476b-a369-d1b9929e70d0
 
