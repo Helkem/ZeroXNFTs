@@ -15,6 +15,12 @@ Select a chain, input any NFT contract address or click the scrolling collection
 ### Node Version
 Tested with v20.12.2
 
+## Live Website
+https://zeroxnft.netlify.app/
+
+## Live Demo
+https://www.loom.com/share/f435e2f3dfeb4fae89eb222280f99716?sid=ba2c3b0f-bdb7-476b-a369-d1b9929e70d0
+
 ## Installing
 * Before running locally, make sure to navigate to the api folder duplicate `.env_sample` to a new file called `.env`, and update its values to a valid MORALIS API key.
 * Get your free API key here https://docs.moralis.io/web3-data-api/evm/reference/get-contract-nfts?address=0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB&chain=eth&format=decimal
@@ -27,7 +33,7 @@ Tested with v20.12.2
 * Run the frontend development server
 * Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
-## Running the API
+## Running the Backend
   
 Navigate to API directory  
 ```
