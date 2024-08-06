@@ -30,23 +30,46 @@ function Content({
                 hoverable={true}
                 style={{ width: 240 }}
                 cover={
-                  <Image
-                    src={getImgUrl(e.metadata)}
-                    alt={`${i}`}
-                    placeholder={
-                      <Skeleton.Image
-                        active={true}
-                        size='large'
-                        block={true}
-                        style={{ width: 240, height: 240 }}
-                      />
-                    }
-                    fallback='./images/zerologo.svg'
-                  />
+                  <div
+                    style={{
+                      height: 240,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <Image
+                      src={getImgUrl(e.metadata)}
+                      alt={`${i}`}
+                      style={{
+                        maxWidth: "100%",
+                        maxHeight: "100%",
+                      }}
+                      placeholder={
+                        <Skeleton.Image
+                          active={true}
+                          style={{
+                            position: "absolute",
+                            top: 0,
+                            left: 0,
+                            width: "100%",
+                            height: "100%",
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                          }}
+                        />
+                      }
+                      fallback='./images/zerologo.svg'
+                    />
+                  </div>
                 }
               >
                 <div>
-                  <Meta title={`${e.name}\n${e.token_id}`} />
+                  <Meta
+                    title={`${e.name}\n${e.token_id}`}
+                    style={{ display: "block" }}
+                  />
                 </div>
               </Card>
             </>
