@@ -40,11 +40,11 @@ const Layout = () => {
     try {
       let res;
       if (cursor) {
-        res = await axios.get(`http://localhost:3000/allNft`, {
+        res = await axios.get(`https://zeroxnfts.onrender.com/allNft`, {
           params: { address: address, chain: chain, cursor: cursor },
         });
       } else {
-        res = await axios.get(`http://localhost:3000/allNft`, {
+        res = await axios.get(`https://zeroxnfts.onrender.com/allNft`, {
           params: { address: address, chain: chain },
         });
       }
