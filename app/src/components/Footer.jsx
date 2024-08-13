@@ -3,11 +3,11 @@ export default function Footer() {
     <footer className='footer'>
       <a
         className='footerLink'
-        href='https://twitter.com/Helkem'
+        href='https://github.com/Helkem'
         target='_blank'
         rel='noopener noreferrer'
       >
-        https://twitter.com/Helkem
+        https://github.com/Helkem
       </a>
     </footer>
   );
